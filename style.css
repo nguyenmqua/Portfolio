@@ -1,19 +1,45 @@
+
+
 body{
     background-color: rgb(190, 186, 186);
+ 
 }
 
 h2 {
     font-family: 'Roboto', sans-serif;
     color: rgb(74, 181, 214);
 }
+#Qua {
+    margin-left: 100px;
+}
+
+#maincontent {
+    margin-bottom: 20px ;
+}
+
+footer { 
+    bottom: 0;
+    margin-left: 0;
+}
 
 @media screen and (max-width: 575.98px) {
-    body{
+    body {
         background-color: rgb(190, 186, 186);
     }
-
-    #wrapper {
+    #maincontent {
+        width: 80%;
+        text-align: center;
+        margin-left: 50px;
+    }
+    #Qua {
         width: 100%;
-        padding: 20px;
+        text-align: center;
+        margin-left: 30px;
+      
+    }
+    #links {
+        width: 100%;
+        text-align: center;
+        margin-left: 75px;
     }
 }
