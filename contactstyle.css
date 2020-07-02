@@ -1,4 +1,6 @@
-
+* {
+    box-sizing: border-box;
+  }
 
 body{
     background-color: rgb(190, 186, 186);
@@ -14,7 +16,8 @@ h2 {
 }
 
 #maincontent {
-    margin-bottom: 90px;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 @media screen and (max-width: 640px) {
@@ -22,18 +25,12 @@ h2 {
         background-color: rgb(53, 54, 59)
     }
     #Qua {
-        width: 100%;
-        margin-left: 20px;
+        text-align: center;
+        align-content: center;
     }
     #maincontent {
-        width: 80%;
-        margin-left: 50px;
-        padding-top: 5px;
+        padding: 10px;
+        text-align: center;
     }
     
-    #links {
-        width: 100%;
-        margin-left: 20px;
-
-    }
 }
