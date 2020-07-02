@@ -1,5 +1,6 @@
-
-
+* {
+    box-sizing: border-box;
+  }
 body{
     background-color: rgb(190, 186, 186);
  
@@ -10,7 +11,7 @@ h2 {
     color: rgb(74, 181, 214);
 }
 #Qua {
-    margin-left: 100px;
+    margin-left: 50px;
 }
 
 #maincontent {
@@ -32,22 +33,28 @@ h2 {
 
      #Qua {
         width: 100%;
-        margin-left: 50px;
+        margin-left: 5px;
       
     }
     #maincontent {
-        width: 80%;
-        margin-left: 50px;
-        padding-top: 5px; 
-    }
-
-    #maincontent img{
-        padding-left: 120px;
-        padding-right: 120px;
         
+    }
+    #maincontent img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        padding:10px;
+    
+      }
+      
+    p {
+        position: relative;
+        bottom: -10px;
+      
     }
 
     #links {
-        margin-left: 50px;
+        margin-left: 5px;
     }
 }
