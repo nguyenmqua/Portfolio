@@ -22,15 +22,27 @@ h2 {
 
 @media screen and (max-width: 640px) {
     body {
-        background-color: rgb(53, 54, 59)
+        background-color: rgb(53, 54, 59);
     }
-    #Qua {
-        text-align: center;
-        align-content: center;
+
+     #Qua {
+        width: 100%;
+        margin-left: 5px;
+      
     }
     #maincontent {
-        padding: 10px;
-        text-align: center;
+        width: 80%;
+        margin-left: 5px;
+        padding-top: 5px; 
     }
-    
+
+    #maincontent img{
+        padding-left: 120px;
+        padding-right: 120px;
+        
+    }
+
+    #links {
+        margin-left: 5px;
+    }
 }
