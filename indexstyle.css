@@ -1,0 +1,53 @@
+
+
+body{
+    background-color: rgb(190, 186, 186);
+ 
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(74, 181, 214);
+}
+#Qua {
+    margin-left: 100px;
+}
+
+#maincontent {
+    margin-bottom: 50px ;
+    padding-bottom: 100px;
+}
+
+#maincontent img {
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+@media screen and (max-width: 640px) {
+    body {
+        background-color: rgb(53, 54, 59);
+    }
+
+     #Qua {
+        width: 100%;
+        margin-left: 50px;
+      
+    }
+    #maincontent {
+        width: 80%;
+        margin-left: 50px;
+        padding-top: 5px; 
+    }
+
+    #maincontent img{
+        padding-left: 120px;
+        padding-right: 120px;
+        
+    }
+
+    #links {
+        margin-left: 50px;
+    }
+}
