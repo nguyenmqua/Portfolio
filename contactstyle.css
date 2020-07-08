@@ -12,37 +12,25 @@ h2 {
     color: rgb(74, 181, 214);
 }
 #Qua {
-    margin-left: 100px;
+    margin-left: 8%;
 }
 
-#maincontent {
-    margin-top: 20px;
-    margin-bottom: 40px;
-}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;   
+  }
+
 
 @media screen and (max-width: 640px) {
     body {
         background-color: rgb(53, 54, 59);
     }
 
-     #Qua {
-        width: 100%;
-        margin-left: 5px;
-      
-    }
     #maincontent {
         width: 100%;
-        margin-left: 5px;
-        padding-top: 5px; 
+        margin-bottom: 10px;
     }
 
-    #maincontent img{
-        padding-left: 120px;
-        padding-right: 120px;
-        
-    }
-
-    #links {
-        margin-left: 5px;
-    }
 }
