@@ -1,34 +1,39 @@
 * {
     box-sizing: border-box;
-  }
+   }
+   *:before,
+   *:after {
+    box-sizing: border-box;
+   }
 body{
     background-color: rgb(190, 186, 186);
- 
+        height: 100%;
+        position: relative;
 }
 
-.navbar {
-    margin-bottom: 20px;
-}
-
-.col-md-8 {
+.col-lg-7 {
+    margin-top: 20px;
     padding: 10px;
+    margin-bottom: 20px;
 }
 h2 {
     font-family: 'Roboto', sans-serif;
     color: rgb(74, 181, 214);
 }
 #Qua {
-    margin-left: 50px;
+    margin-left: 8%;
 }
 
-#maincontent {
-    margin-bottom: 20px ;
-    padding-bottom: 60px;
-}
 
 #maincontent img {
    padding: 10px;
 }
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+   }
 
 
 
@@ -37,9 +42,8 @@ h2 {
         background-color: rgb(53, 54, 59);
     }
 
-     #Qua {
+    #maincontent {
         width: 100%;
-        margin-left: 5px;  
     }
     img {
         display: block;
@@ -49,10 +53,6 @@ h2 {
         padding: 10px;
     }
       
-    #links {
-       display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
+ 
 
 }
