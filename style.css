@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+   }
+   *:before,
+   *:after {
+    box-sizing: border-box;
+   }
+
+   
+body{
+    background: white url("./background.jpeg") no-repeat center;
+    background-size:auto;
+    background-repeat:no-repeat;
+    height: 100%;
+    position: relative;
+}
+
+.navbar{
+    border-bottom: 5px solid black;
+    margin-bottom: 10px;
+}
+
+.main {
+    margin-top: 30px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+}
+
+#Qua {
+    margin-left: 8%;
+    font-family: 'Cinzel', serif;
+}
+.card-header,
+.nav-link {
+    font-family: 'Cinzel', serif;
+}
+
+.select {
+    margin-left: 60px;
+}
+.inner{
+    margin: 10px;
+    border-style: inset;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+footer {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+   }
+
+#maincontent {
+    margin-bottom:10px;
+}
+
+
+@media screen and (max-width: 640px) {
+    body {
+        background-color: rgb(53, 54, 59);
+    }
+
+    #maincontent {
+        width: 100%;
+    }
+    img {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin: auto;
+    }
+}
