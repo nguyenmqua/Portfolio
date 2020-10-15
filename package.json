@@ -1,0 +1,27 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Qua Nguyen's Portfolio",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "mysql2": "^2.2.5",
+    "sequelize": "^5.8.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm i",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nguyenmqua/Week2.git"
+  },
+  "author": "Qua Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nguyenmqua/Week2/issues"
+  },
+  "homepage": "https://github.com/nguyenmqua/Week2#readme"
+}

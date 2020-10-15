@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+   }
+   *:before,
+   *:after {
+    box-sizing: border-box;
+   }
+
+   
+body{
+    background: white;
+    background-size:auto;
+    background-repeat:no-repeat;
+    height: 100%;
+    position: relative;
+}
+h2{
+    color: turquoise;
+}
+p{
+    color: rgb(63, 106, 170);
+    font-weight: bold;
+}
+footer {
+    position: relative;
+    bottom: 0px;
+    padding-top: 10px;
+    width: 100%;
+   }
+
+.image {
+    background: white url("./image.png") no-repeat center ;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    height: 400px;
+  
+}
+
+.navbar {
+    font-family: 'Architects Daughter', cursive;
+}
+
+a:active {
+    color: turquoise;
+  }
+
+.card-header,
+.card-body{
+    font-family: 'Architects Daughter', cursive;
+    background-color: white;
+}
+
+.card-group{
+   padding-bottom: 10px;
+}
+
+.card{
+    padding-right: 10px;
+}
+
+.card-img-top{
+    border-radius: 8px;
+}
+
+.container:hover .avatar-flip {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+  }
+.container:hover .avatar-flip img:first-child {
+    opacity: 0;
+  }
+.container:hover .avatar-flip img:last-child {
+    opacity:0
+}
+.avatar-flip {
+    border-radius: 100px;
+    overflow: hidden;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    margin: auto;
+    top: -60px;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 0 13px white;
+    -webkit-box-shadow: 0 0 0 13px turquoise;
+    -moz-box-shadow: 0 0 0 13px #f0f0f0;
+  }
+
+@media screen and (max-width: 640px) {
+    body {
+        background-color: rgb(53, 54, 59);
+    }
+
+}
