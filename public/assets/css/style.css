@@ -1,97 +1,148 @@
-* {
-    box-sizing: border-box;
-   }
-   *:before,
-   *:after {
-    box-sizing: border-box;
-   }
 
-   
 body{
-    background: white;
-    background-size:auto;
-    background-repeat:no-repeat;
-    height: 100%;
-    position: relative;
-}
-h2{
-    color: turquoise;
-}
-p{
-    color: rgb(63, 106, 170);
-    font-weight: bold;
-}
-footer {
-    position: relative;
-    bottom: 0px;
-    padding-top: 10px;
-    width: 100%;
-   }
-
-.image {
-    background: white url("./image.png") no-repeat center ;
+    background: black url("./background.jpg")no-repeat center center fixed;;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    width: 100%;
-    position: relative;
-    height: 400px;
-  
+    color: white;
+
 }
 
-.navbar {
-    font-family: 'Architects Daughter', cursive;
+.btn{
+    background-color: thistle;
 }
 
-a:active {
-    color: turquoise;
-  }
-
-.card-header,
-.card-body{
-    font-family: 'Architects Daughter', cursive;
-    background-color: white;
+#links,a {
+    font-size: 25px;
 }
-
-.card-group{
-   padding-bottom: 10px;
+a {
+    color: black
 }
 
 .card{
-    padding-right: 10px;
+    margin-bottom: 10px;
 }
 
-.card-img-top{
-    border-radius: 8px;
+#container{
+    position: relative;   
 }
 
-.container:hover .avatar-flip {
-    transform: rotateY(180deg);
-    -webkit-transform: rotateY(180deg);
-  }
-.container:hover .avatar-flip img:first-child {
-    opacity: 0;
-  }
-.container:hover .avatar-flip img:last-child {
-    opacity:0
+.card{
+    background-color: rgb(128, 130, 243);
+    margin-left: 10px;
 }
+
 .avatar-flip {
     border-radius: 100px;
     overflow: hidden;
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     position: relative;
     margin: auto;
-    top: -60px;
-    transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    box-shadow: 0 0 0 13px white;
-    -webkit-box-shadow: 0 0 0 13px turquoise;
-    -moz-box-shadow: 0 0 0 13px #f0f0f0;
+    transform: rotate(-25deg);
   }
 
-@media screen and (max-width: 640px) {
-    body {
-        background-color: rgb(53, 54, 59);
-    }
+.wrapper {
+    display: block;
+}
 
+.active{
+    display:inline-block
+}
+
+.hidden{
+    display: none;
+}
+
+p{
+    font-size: 20px;
+}
+
+#aboutMe{
+    position: relative;
+    top: 200px;
+    color: white;
+}
+
+#sidebar-container{
+    position: absolute;
+    top: 40px;
+    left: 25px;
+}
+
+#sidebar {
+    background-color: rgba(221, 224, 243, 0.5);
+    width:250px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    color: white
+}
+#sidebarCollapse{
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    body{
+        background-size: auto;
+        color: white;
+    }
+    #sidebar{
+        top: auto;
+        bottom: auto;
+        left: auto;
+        right: auto;
+        position: relative;
+        width: 100%;
+        height: 50px;
+        padding-bottom: 0;
+        overflow: hidden;
+    }
+    #sidebar-container{
+        position: absolute;
+        top: 0px;
+        left: 5px;
+        padding: 5px
+    }
+    .avatar-flip{
+        display: none;
+    }
+    #links{
+        display: none;
+    }
+    .sidebar-header{
+        display: none;
+    }
+    #social-media-apps{
+        top: 0;
+        left: 0;
+        z-index: 9999;
+    }
+    #sidebarCollapse{
+        display: inline;
+        float: right;
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+    #expandable-links{
+        background-color: rgba(221, 224, 243, 0.5);
+        top: auto;
+        bottom: auto;
+        left: auto;
+        right: auto;
+        position: relative;
+        width: 100%;
+        height: 100px;
+        padding-bottom: 0;
+        overflow: hidden;
+    }
+    #float{
+        float: right;
+    }
+    .card img{
+       width:100%
+    }
 }
