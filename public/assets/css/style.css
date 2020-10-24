@@ -15,6 +15,10 @@ body{
 
 #links,a {
     font-size: 25px;
+    font-family: 'Noto Serif', serif;
+}
+.card-header{
+    font-family: 'Noto Serif', serif;
 }
 a {
     color: black
@@ -138,6 +142,7 @@ p{
         height: 100px;
         padding-bottom: 0;
         overflow: hidden;
+        font-family: 'Noto Serif', serif;
     }
     #float{
         float: right;
